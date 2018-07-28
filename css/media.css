@@ -1,0 +1,360 @@
+/* extra smll device*/
+
+/**Extra small devices (portrait phones, less than 576px)**/
+
+@media (max-width: 575.98px) {
+
+	/* header style start*/
+	.header {
+		background: #414143;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.logo {}
+	.logo-img {
+		height: 50px;
+		width: 50px;
+		background: #BDBEC0;
+		border-radius: 50%;
+	}
+
+	.menu ul {
+		list-style: none;
+		float: right;
+	}
+	.menu ul li {
+		height: 15px;
+		width: 50px;
+		background: #BCBDBF;
+		float: left;
+		display: block;
+		margin: 0 3px;
+		margin-top: 17px;
+		border-radius: 3px;
+	}
+
+	/* header style end*/
+	/*banner style start*/
+	.banner {
+		min-height: 200px;
+		background-color: #C4C3C1;
+		margin: 0 -15px;
+	}
+
+	.banner h1 {
+		text-align: center;
+		font-size: 40px;
+		padding: 70px 0px;
+	}
+
+	/*banner style end*/
+	/*service style start*/
+	/*service top start*/
+	.service_top {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.service_top1 {
+		border: 1px solid black;
+		min-height: 30px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+	}
+
+	.service_top2 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+
+	.last-child {
+		width: 80%;
+	}
+
+	/*service top end*/
+	/*service middle*/
+	.service_middle_left {
+		width: 100%;
+		float: left;
+		margin-top: 20px;
+	}
+
+	.service_middle_left .sm_1 {
+		border: 1px solid black;
+		min-height: 20px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+	}
+
+	.sm_2 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+
+	.sm_22 {
+		width: 70%;
+	}
+
+	.sm_11 {
+		border: 1px solid black;
+		min-height: 20px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+		margin-top: 20px;
+	}
+
+	.service_middle_right {
+		width: 100%;
+		border: 1px solid black;
+		min-height: 162px;
+		background-color: #BDBEC0;
+		border: transparent;
+		float: right;
+		margin-top: 16px;
+	}
+
+	.sm_33 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+		margin-left: 5px;
+
+	}
+
+	.sm_333 {
+		width: 80%;
+	}
+
+	/*service middle end*/
+	/*service gallary*/
+	.single_gallary {
+		border: 1px solid black;
+		min-height: 150px;
+		background-color: #BDBEC0;
+		border: transparent;
+		float: left;
+		width: 100%;
+		margin-top: 30px;
+
+
+	}
+
+	/*service gallary end*/
+	/*service style end*/
+	/*footer style start*/
+	.footer {
+		width: 100%;
+		border: 1px solid black;
+		min-height: 180px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 25px;
+	}
+
+	/*footer style end*/
+}
+
+/* extra smll device end*/
+
+/*small device*/
+
+/**Small devices (landscape phones, 576px and up)**/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*	header style start*/
+
+.header{
+	background: #414143;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo{
+
+}
+.logo-img{
+	height: 50px;
+	width: 50px;
+	background: #BDBEC0;
+	border-radius: 50%;
+}
+	.menu ul{
+	list-style: none;
+	float: right;
+}
+
+	.menu ul li {
+		height: 15px;
+		width: 70px;
+		background: #BCBDBF;
+		float: left;
+		display: block;
+		margin: 0 5px;
+		margin-top: 17px;
+		border-radius: 3px;
+	}
+
+	/* header style end*/
+	/*banner style start*/
+	.banner {
+		min-height: 200px;
+		background-color: #C4C3C1;
+	}
+
+	.banner h1 {
+		text-align: center;
+		font-size: 40px;
+		padding: 70px 0px;
+	}
+
+	/*banner style end*/
+	/*service style start*/
+	/*service top start*/
+	.service_top {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.service_top1 {
+		border: 1px solid black;
+		min-height: 30px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+	}
+
+	.service_top2 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+
+	.last-child {
+		width: 80%;
+	}
+
+	/*service top end*/
+	/*service middle*/
+	.service_middle_left {
+		width: 100%;
+		float: left;
+		margin-top: 20px;
+	}
+
+	.service_middle_left .sm_1 {
+		border: 1px solid black;
+		min-height: 20px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+	}
+
+	.sm_2 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+
+	.sm_22 {
+		width: 70%;
+	}
+
+	.sm_11 {
+		border: 1px solid black;
+		min-height: 20px;
+		background-color: gray;
+		border: transparent;
+		border-radius: 5px;
+		margin-top: 20px;
+	}
+
+	.service_middle_right {
+		width: 100%;
+		border: 1px solid black;
+		min-height: 162px;
+		background-color: #BDBEC0;
+		border: transparent;
+		float: right;
+		margin-top: 16px;
+	}
+
+	.sm_33 {
+		border: 1px solid black;
+		min-height: 10px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 10px;
+		border-radius: 5px;
+		margin-left: 5px;
+
+	}
+
+	.sm_333 {
+		width: 80%;
+	}
+
+	/*service middle end*/
+	/*service gallary*/
+	.single_gallary {
+		border: 1px solid black;
+		min-height: 150px;
+		background-color: #BDBEC0;
+		border: transparent;
+		float: left;
+		width: 100%;
+		margin-top: 30px;
+
+
+	}
+
+	/*service gallary end*/
+	/*service style end*/
+	/*footer style start*/
+	.footer {
+		width: 100%;
+		border: 1px solid black;
+		min-height: 180px;
+		background-color: #BDBEC0;
+		border: transparent;
+		margin-top: 25px;
+	}
+
+	/*footer style end*/
+}
+
+}
+
+/*small device end*/
+
+/**Medium devices (tablets, 768px and up)**/
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/**Large devices (desktops, 992px and up)**/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/**Extra large devices (large desktops, 1200px and up)**/
+
+@media (min-width: 1200px) {}
